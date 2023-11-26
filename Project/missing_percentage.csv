@@ -1,26 +1,87 @@
 ,Column Name,Percentage of Missing Values
-20,What other flavoring do you use?,1.0
-22,Gender (please specify),0.996816976127321
-8,Where else do you purchase coffee?,0.9925729442970822
-10,What else do you add to your coffee?,0.9888594164456234
-23,Ethnicity/Race (please specify),0.9721485411140584
-9,Please specify what your favorite coffee drink is,0.9702917771883289
-21,Other reason for drinking coffee,0.9557029177718833
-11,What kind of sugar or sweetener do you add?,0.8734748010610079
-12,What kind of sugar or sweetener do you add? (Granulated Sugar),0.8721485411140584
-16,What kind of sugar or sweetener do you add? (Stevia),0.8721485411140584
-19,What kind of sugar or sweetener do you add? (Raw Sugar (Turbinado)),0.8721485411140584
-18,What kind of sugar or sweetener do you add? (Brown Sugar),0.8721485411140584
-17,What kind of sugar or sweetener do you add? (Agave Nectar),0.8721485411140584
-13,"What kind of sugar or sweetener do you add? (Artificial Sweeteners (e.g., Splenda))",0.8721485411140584
-14,What kind of sugar or sweetener do you add? (Honey),0.8721485411140584
-15,What kind of sugar or sweetener do you add? (Maple Syrup),0.8721485411140584
-0,How else do you brew coffee at home?,0.830238726790451
-1,"On the go, where do you typically purchase coffee?",0.8217506631299735
-7,"On the go, where do you typically purchase coffee? (Other)",0.8183023872679045
-6,"On the go, where do you typically purchase coffee? (Deli or supermarket)",0.8183023872679045
-5,"On the go, where do you typically purchase coffee? (Specialty coffee shop)",0.8183023872679045
-4,"On the go, where do you typically purchase coffee? (Drive-thru)",0.8183023872679045
-3,"On the go, where do you typically purchase coffee? (Local cafe)",0.8183023872679045
-2,"On the go, where do you typically purchase coffee? (National chain (e.g. Starbucks, Dunkin))",0.8183023872679045
-24,Number of Children,0.7729442970822281
+85,Political Affiliation,0.12758620689655173
+83,Ethnicity/Race,0.09336870026525199
+84,Employment Status,0.09310344827586207
+82,Education Level,0.08806366047745358
+79,Approximately how much have you spent on coffee equipment in the past 5 years?,0.07029177718832891
+77,What is the most you'd ever be willing to pay for a cup of coffee?,0.06923076923076923
+68,"In total, much money do you typically spend on coffee in a month?",0.06896551724137931
+67,Do you work from home or in person?,0.06551724137931035
+81,Gender,0.06551724137931035
+76,What is the most you've ever paid for a cup of coffee?,0.06472148541114059
+59,Coffee C - Acidity,0.007692307692307693
+53,Coffee A - Acidity,0.006896551724137931
+48,How strong do you like your coffee?,0.006896551724137931
+56,Coffee B - Acidity,0.005570291777188329
+50,How much caffeine do you like in your coffee?,0.005305039787798408
+63,Coffee D - Personal Preference,0.005039787798408488
+62,Coffee D - Acidity,0.004509283819628647
+60,Coffee C - Personal Preference,0.004244031830238726
+54,Coffee A - Personal Preference,0.004244031830238726
+57,Coffee B - Personal Preference,0.004244031830238726
+58,Coffee C - Bitterness,0.003713527851458886
+61,Coffee D - Bitterness,0.003713527851458886
+55,Coffee B - Bitterness,0.0034482758620689655
+52,Coffee A - Bitterness,0.003183023872679045
+2,How many cups of coffee do you typically drink per day?,0.0023872679045092837
+51,"Lastly, how would you rate your own coffee expertise?",0.0010610079575596816
+49,What roast level of coffee do you prefer?,0.0007957559681697613
+24,What is your favorite coffee drink?,0.0002652519893899204
+46,What kind of sugar or sweetener do you add? (Raw Sugar (Turbinado)),0.0
+47,"Before today's tasting, which of the following best described what kind of coffee you like?",0.0
+65,"Between Coffee A and Coffee D, which did you prefer?",0.0
+64,"Between Coffee A, Coffee B, and Coffee C which did you prefer?",0.0
+44,What kind of sugar or sweetener do you add? (Agave Nectar),0.0
+66,"Lastly, what was your favorite overall coffee?",0.0
+69,Why do you drink coffee? (It tastes good),0.0
+70,Why do you drink coffee? (I need the caffeine),0.0
+71,Why do you drink coffee? (I need the ritual),0.0
+72,Why do you drink coffee? (It makes me go to the bathroom),0.0
+73,Why do you drink coffee? (Other),0.0
+74,Do you like the taste of coffee?,0.0
+75,Do you know where your coffee comes from?,0.0
+78,Do you feel like you’re getting good value for your money when you buy coffee at a cafe?,0.0
+80,Do you feel like you’re getting good value for your money with regards to your coffee equipment?,0.0
+45,What kind of sugar or sweetener do you add? (Brown Sugar),0.0
+0,Submission ID,0.0
+1,What is your age?,0.0
+21,"On the go, where do you typically purchase coffee? (Specialty coffee shop)",0.0
+19,"On the go, where do you typically purchase coffee? (Local cafe)",0.0
+18,"On the go, where do you typically purchase coffee? (National chain (e.g. Starbucks, Dunkin))",0.0
+17,How do you brew coffee at home? (Other),0.0
+16,How do you brew coffee at home? (Coffee extract (e.g. Cometeer)),0.0
+15,How do you brew coffee at home? (Cold brew),0.0
+14,How do you brew coffee at home? (Bean-to-cup machine),0.0
+13,How do you brew coffee at home? (Instant coffee),0.0
+12,How do you brew coffee at home? (Pod/capsule machine (e.g. Keurig/Nespresso)),0.0
+11,How do you brew coffee at home? (Coffee brewing machine (e.g. Mr. Coffee)),0.0
+10,How do you brew coffee at home? (Espresso),0.0
+9,How do you brew coffee at home? (French press),0.0
+8,How do you brew coffee at home? (Pour over),0.0
+7,Where do you typically drink coffee? (None of these),0.0
+6,Where do you typically drink coffee? (At a cafe),0.0
+5,Where do you typically drink coffee? (On the go),0.0
+4,Where do you typically drink coffee? (At the office),0.0
+3,Where do you typically drink coffee? (At home),0.0
+20,"On the go, where do you typically purchase coffee? (Drive-thru)",0.0
+22,"On the go, where do you typically purchase coffee? (Deli or supermarket)",0.0
+42,What kind of sugar or sweetener do you add? (Maple Syrup),0.0
+23,"On the go, where do you typically purchase coffee? (Other)",0.0
+41,What kind of sugar or sweetener do you add? (Honey),0.0
+40,"What kind of sugar or sweetener do you add? (Artificial Sweeteners (e.g., Splenda))",0.0
+39,What kind of sugar or sweetener do you add? (Granulated Sugar),0.0
+38,What kind of dairy do you add? (Other),0.0
+37,What kind of dairy do you add? (Soy milk),0.0
+36,What kind of dairy do you add? (Almond milk),0.0
+35,What kind of dairy do you add? (Oat milk),0.0
+34,What kind of dairy do you add? (Flavored coffee creamer),0.0
+33,What kind of dairy do you add? (Coffee creamer),0.0
+32,What kind of dairy do you add? (Half and half),0.0
+31,What kind of dairy do you add? (Skim milk),0.0
+30,What kind of dairy do you add? (Whole milk),0.0
+29,Do you usually add anything to your coffee? (Other),0.0
+28,Do you usually add anything to your coffee? (Flavor syrup),0.0
+27,Do you usually add anything to your coffee? (Sugar or sweetener),0.0
+26,"Do you usually add anything to your coffee? (Milk, dairy alternative, or coffee creamer)",0.0
+25,Do you usually add anything to your coffee? (No - just black),0.0
+43,What kind of sugar or sweetener do you add? (Stevia),0.0
