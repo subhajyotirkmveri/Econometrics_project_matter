@@ -1,0 +1,26 @@
+,Column Name,Percentage of Missing Values
+20,What other flavoring do you use?,1.0
+22,Gender (please specify),0.996816976127321
+8,Where else do you purchase coffee?,0.9925729442970822
+10,What else do you add to your coffee?,0.9888594164456234
+23,Ethnicity/Race (please specify),0.9721485411140584
+9,Please specify what your favorite coffee drink is,0.9702917771883289
+21,Other reason for drinking coffee,0.9557029177718833
+11,What kind of sugar or sweetener do you add?,0.8734748010610079
+12,What kind of sugar or sweetener do you add? (Granulated Sugar),0.8721485411140584
+16,What kind of sugar or sweetener do you add? (Stevia),0.8721485411140584
+19,What kind of sugar or sweetener do you add? (Raw Sugar (Turbinado)),0.8721485411140584
+18,What kind of sugar or sweetener do you add? (Brown Sugar),0.8721485411140584
+17,What kind of sugar or sweetener do you add? (Agave Nectar),0.8721485411140584
+13,"What kind of sugar or sweetener do you add? (Artificial Sweeteners (e.g., Splenda))",0.8721485411140584
+14,What kind of sugar or sweetener do you add? (Honey),0.8721485411140584
+15,What kind of sugar or sweetener do you add? (Maple Syrup),0.8721485411140584
+0,How else do you brew coffee at home?,0.830238726790451
+1,"On the go, where do you typically purchase coffee?",0.8217506631299735
+7,"On the go, where do you typically purchase coffee? (Other)",0.8183023872679045
+6,"On the go, where do you typically purchase coffee? (Deli or supermarket)",0.8183023872679045
+5,"On the go, where do you typically purchase coffee? (Specialty coffee shop)",0.8183023872679045
+4,"On the go, where do you typically purchase coffee? (Drive-thru)",0.8183023872679045
+3,"On the go, where do you typically purchase coffee? (Local cafe)",0.8183023872679045
+2,"On the go, where do you typically purchase coffee? (National chain (e.g. Starbucks, Dunkin))",0.8183023872679045
+24,Number of Children,0.7729442970822281
