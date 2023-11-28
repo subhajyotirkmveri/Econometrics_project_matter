@@ -1,5 +1,39 @@
-data=read.csv("filtered.csv")
-str(data)
-category_coloumns=c("What is your age?","What is your favorite coffee drink?","Before today's tasting, which of the following best described what kind of coffee you like?","How much caffeine do you like in your coffee?","What is the most you've ever paid for a cup of coffee?","Do you work from home or in person?","Lastly, how would you rate your own coffee expertise?","Lastly, what was your favorite overall coffee?","In total, much money do you typically spend on coffee in a month?","What is the most you'd ever be willing to pay for a cup of coffee?","Approximately how much have you spent on coffee equipment in the past 5 years?","Gender","Education Level","Ethnicity/Race","Employment Status","Political Affiliation","How many cups of coffee do you typically drink per day?","How strong do you like your coffee?","What roast level of coffee do you prefer?")
-df[, category_coloumns] <- lapply(df[, category_coloumns], factor)
-str(data)
+# Importing the libraries
+
+library(FactoMineR)
+library(factoextra)
+library(dplyr)
+library(missMDA)
+library(Gifi)
+#Importing the filtered data
+
+
+data=read.csv("processed_data.csv")
+str(data)  # checking the data types of the coloumns
+#Removing the first column from the Filtered dataset
+data=data[,-1]
+colnames(data)
+subset_data_original=select(data,-Lastly..what.was.your.favorite.overall.coffee.)
+
+# Converting the data variables to factors in R 
+
+subset_data=lapply(subset_data_original,factor)
+subset_data[] <- lapply(subset_data, function(x) if(is.numeric(x)) factor(x) else x)
+subset_data=data.frame(subset_data)
+str(subset_data)
+class(subset_data)
+#subset_data$How.do.you.brew.coffee.at.home...Bean.to.cup.machine.
+colnames(subset_data)
+
+dim(subset_data)
+estim_ncpMCA(don=subset_data)
+# Dimensionality Reduction
+# Multiple Correspondence Analysis
+res.mca=MCA(subset_data,graph = FALSE)
+get_eigenvalue(res.mca)
+fviz_screeplot(res.mca,addlabels = TRUE,
+                 # Avoid text overlapping (slow if many point)
+                ggtheme = theme_minimal())
+
+
+res.mca$call
