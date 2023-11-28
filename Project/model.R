@@ -1,0 +1,5 @@
+data=read.csv("filtered.csv")
+str(data)
+category_coloumns=c("What is your age?","What is your favorite coffee drink?","Before today's tasting, which of the following best described what kind of coffee you like?","How much caffeine do you like in your coffee?","What is the most you've ever paid for a cup of coffee?","Do you work from home or in person?","Lastly, how would you rate your own coffee expertise?","Lastly, what was your favorite overall coffee?","In total, much money do you typically spend on coffee in a month?","What is the most you'd ever be willing to pay for a cup of coffee?","Approximately how much have you spent on coffee equipment in the past 5 years?","Gender","Education Level","Ethnicity/Race","Employment Status","Political Affiliation","How many cups of coffee do you typically drink per day?","How strong do you like your coffee?","What roast level of coffee do you prefer?")
+df[, category_coloumns] <- lapply(df[, category_coloumns], factor)
+str(data)
